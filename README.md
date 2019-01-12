@@ -1,9 +1,6 @@
-# CMPE/CSCI 1370 - 04 Computer Science I
+# CMPE/CSCI 1370 - 01 Computer Science I
 
-<https://github.com/jjlumagbas/csci1370-2018fall-4>
-
-Lecture: TR 1:40 pm - 2:55 pm (EEDUC 2.502)  
-Lab (CMPE/CSCI 1170 - 04): F  1:20 pm - 3:50 pm (2.120)
+<https://github.com/jjlumagbas/1370>
 
 There's more to Computer Science than programming, but programming is a great way to learn about how computers "think", and how we can use them as tools to solve problems. In this course, we'll learn how to analyze real-world problems, identify the parts of the problem that a computer could solve much more efficiently than we can, and create a program, which is a set of instructions that tell a computer what to do.
 
@@ -57,6 +54,10 @@ JJ Lumagbas
 
 ### Office hours
 
+**Important:** Email me first to set an appointment before coming to the office. I can't guarantee that I'll be there if we haven't set a prior appointment.
+
+Office number: IEAB 3.226
+
 MW 10:40 am - 12:00 pm  
 TR 10:40 am - 12:00 pm
 
@@ -72,18 +73,7 @@ At the end of this course, you should be able to:
 
 [Topics calendar is in a Google Sheet here.](https://docs.google.com/spreadsheets/d/1HtpLxEttdHF2lLJeFtqy-fk4xJKU39BsZCgQt3ENBus/edit?usp=sharing) Note: This is tentative! Expect topics to move around as we progress.
 
-UTRGV important dates:
-
-| Date             | Event                                                        |
-|:-----------------|--------------------------------------------------------------|
-| August 27        | First day of classes                                         |
-| August 30        | Last day to add a course or register for fall 2018           |
-| September 3      | Labor Day – NO classes                                       |
-| November 14      | Last day to drop a course; will count toward the 6-drop rule |
-| November 22 - 24 | Thanksgiving Holiday – NO classes                            |
-| December 6       | Study Day – NO classes                                       |
-| December 7 - 13  | Final Exams                                                  |
-| December 14 – 15 | Commencement Exercises                                       |
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWliN5Pb0gGXVupMFBw8r0nVhKUu1ndRsOcd-fIlBOU5P0He0UWNeKBCCpNKgaaw2leU5ZA9lOERFI/pubhtml?widget=true&amp;headers=false"></iframe>
 
 ## Textbook
 
