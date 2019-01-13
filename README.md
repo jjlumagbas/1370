@@ -54,7 +54,7 @@ JJ Lumagbas
 
 ### Office hours
 
-**Important:** Email me first to set an appointment before coming to the office. I can't guarantee that I'll be there if we haven't set a prior appointment.
+**Important:** Email me first to set an appointment before coming to the office! I can't guarantee that I'll be there if we haven't set a prior appointment.
 
 Office number: IEAB 3.226
 
@@ -71,9 +71,7 @@ At the end of this course, you should be able to:
 
 ## Course topics calendar
 
-[Topics calendar is in a Google Sheet here.](https://docs.google.com/spreadsheets/d/1HtpLxEttdHF2lLJeFtqy-fk4xJKU39BsZCgQt3ENBus/edit?usp=sharing) Note: This is tentative! Expect topics to move around as we progress.
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWliN5Pb0gGXVupMFBw8r0nVhKUu1ndRsOcd-fIlBOU5P0He0UWNeKBCCpNKgaaw2leU5ZA9lOERFI/pubhtml?widget=true&amp;headers=false"></iframe>
+[Topics calendar is in a Google Sheet here.](https://docs.google.com/spreadsheets/d/1lqdiyLTvpGGXda_iQRO0Xm6lRrw8nEav_N7l4YsDddg/edit?usp=sharing) Note: This is tentative! Expect topics to move around as we progress.
 
 ## Textbook
 
@@ -92,9 +90,18 @@ We'll be using two programming languages during this course – Racket and C++.
 
 DrRacket is the programming environment for Racket, which should already be installed in the labs. I recommend you install Racket on your personal computers, available here: <https://download.racket-lang.org>
 
+After installing, be sure to run the DrRacket program (that's the actual editor), and not the Racket program.
+
 ### C++
 
-We'll use VisualStudio later in the term, when we transition to C++. VS is in the labs as well. Get back to me on getting an educational license for VisualStudio, or whether the [free version](https://visualstudio.microsoft.com/free-developer-offers/) will be good enough.
+WINDOWS: <https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=vs-2017>
+
+MAC:
+
+- Editor (VS Code): <code.visualstudio.com>
+- Running the code: <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>
+   (when you have Code Runner installed, open a cpp file and press: Ctrl + Option + N)
+- misc tools: <https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptoolsv>
 
 
 ## Grading
@@ -103,11 +110,8 @@ We'll use VisualStudio later in the term, when we transition to C++. VS is in th
 |------------------------|-----------:|
 | In-class participation |        10% |
 | Reading quizzes        |        10% |
-| Lab                    |        10% |
-| Homework               |        25% |
-| Exam 1                 |      12.5% |
-| Exam 2                 |      12.5% |
-| Final Exam             |        20% |
+| Lab                    |        30% |
+| Exams                  |        50% |
 | **Total**              |   **100%** |
 
 | Percentage | Final grade |
