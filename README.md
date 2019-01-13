@@ -12,38 +12,39 @@ c. is well documented so that programmers can understand what it's for
 
 We'll start the course learning the recipe using the programming language Racket, and then transition to C++ later in the term to prove that the recipe is transferrable to any programming language.
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Instructor](#instructor)
-	- [Office hours](#office-hours)
-- [Objectives](#objectives)
-- [Course topics calendar](#course-topics-calendar)
-- [Textbook](#textbook)
-- [Software](#software)
-	- [Racket](#racket)
-	- [C++](#c)
-- [Grading](#grading)
-	- [In-class participation](#in-class-participation)
-	- [Reading quizzes](#reading-quizzes)
-	- [Labs](#labs)
-	- [Homework](#homework)
-- [Expectations](#expectations)
-- [Course policies](#course-policies)
-	- [Communication](#communication)
-	- [Office hours](#office-hours)
-	- [Submissions](#submissions)
-	- [Academic honesty](#academic-honesty)
-	- [In-class device policy](#in-class-device-policy)
-- [UTRGV Policies](#utrgv-policies)
-	- [Students with disabilities](#students-with-disabilities)
-		- [Pregnancy, Pregnancy-related, and Parenting Accommodations](#pregnancy-pregnancy-related-and-parenting-accommodations)
-		- [Student Accessibility Services](#student-accessibility-services)
-	- [Mandatory course evaluation period](#mandatory-course-evaluation-period)
-	- [Attendance](#attendance)
-	- [Scholastic integrity](#scholastic-integrity)
-	- [Sexual harassment, discrimination, and violence](#sexual-harassment-discrimination-and-violence)
-	- [Course drops](#course-drops)
-	- [Student services](#student-services)
+- [CMPE/CSCI 1370 - 01 Computer Science I](#cmpecsci-1370-01-computer-science-i)
+	- [Instructor](#instructor)
+		- [Office hours](#office-hours)
+	- [Objectives](#objectives)
+	- [Course topics calendar](#course-topics-calendar)
+	- [Textbook](#textbook)
+	- [Software](#software)
+		- [Racket](#racket)
+		- [C++](#c)
+	- [Grading](#grading)
+		- [In-class participation](#in-class-participation)
+		- [Reading quizzes](#reading-quizzes)
+		- [Labs](#labs)
+	- [Course policies](#course-policies)
+		- [Communication](#communication)
+		- [Office hours](#office-hours)
+		- [Submissions](#submissions)
+		- [Late submissions](#late-submissions)
+			- [Deadline extensions](#deadline-extensions)
+		- [Academic honesty](#academic-honesty)
+		- [In-class device policy](#in-class-device-policy)
+	- [UTRGV Policies](#utrgv-policies)
+		- [Students with disabilities](#students-with-disabilities)
+			- [Pregnancy, Pregnancy-related, and Parenting Accommodations](#pregnancy-pregnancy-related-and-parenting-accommodations)
+			- [Student Accessibility Services](#student-accessibility-services)
+		- [Mandatory course evaluation period](#mandatory-course-evaluation-period)
+		- [Attendance](#attendance)
+		- [Scholastic integrity](#scholastic-integrity)
+		- [Sexual harassment, discrimination, and violence](#sexual-harassment-discrimination-and-violence)
+		- [Course drops](#course-drops)
+		- [Student services](#student-services)
 
 <!-- /TOC -->
 
@@ -106,13 +107,13 @@ MAC:
 
 ## Grading
 
-|                        | Percentage |
-|------------------------|-----------:|
-| In-class participation |        10% |
-| Reading quizzes        |        10% |
-| Lab                    |        30% |
-| Exams                  |        50% |
-| **Total**              |   **100%** |
+|                                     | Percentage |
+|-------------------------------------|-----------:|
+| In-class participation (Attendance) |        10% |
+| Reading quizzes                     |        10% |
+| Lab                                 |        30% |
+| Exams                               |        50% |
+| **Total**                           |   **100%** |
 
 | Percentage | Final grade |
 |------------|-------------|
@@ -125,11 +126,7 @@ MAC:
 
 ### In-class participation
 
-[You'll need voting cards: Download them here.](https://github.com/jjlumagbas/csci1370-2018fall-4/blob/c97ae60db6f2558779f25bab0a1f392664a1aad6/lecture/abcde-voting-cards.pdf)
-
-**TL;DR: Research shows that you'll do well in this class if you do the assigned readings, answer the online quizzes, and participate in class discussions.** (Who'd have thought?)
-
-For objectivity sake, attendance will stand for in-class participation ('coz you better be sure I'm going to get you to participate if you're in the room).
+[You'll need voting cards: Download them here.](https://github.com/jjlumagbas/1370/blob/master/abcde-voting-cards.pdf)
 
 We're adopting Peer Instruction, which is an active learning method that's been backed by [a lot of research](https://www.peerinstruction4cs.org/latest-research/). This is how it works ([or you can watch a video instead](https://www.youtube.com/watch?v=Rixx-Qtnt5I)):
 
@@ -141,14 +138,6 @@ We're adopting Peer Instruction, which is an active learning method that's been 
 	4a. Think: I reveal the multiple choice question and you think over it for a minute or two (no talking!), and then vote on which option you think is the right answer.  
 	4b. Pair: You partner up and try and show your partner why your answer is obviously correct, and theirs is wrong.  
 	4c. Share: We all vote again, then discuss the different options with the rest of the class.
-
-Here's why I like this method, and why I think it works: Using peer instruction, we get over the **Curse of Knowledge**, which is a condition your instructor (every instructor) has: we just can't remember what it feels like not to know what we know. As a consequence, we (teachers) sometimes explain things in a way in which someone *who already knows the material* can understand, and get surprised when students don't get it. D'oh! The advantage of having a peer explain the concepts to you (who's just learning the concept themselves) is **peers can use the language of a novice, which you'll likely understand better**.
-
-Further, thinking critically about a question and arguing with someone else about it reinforces the concept in your mind, facilitating deep learning. Like my pal [Bert](https://www.goodreads.com/quotes/19421-if-you-can-t-explain-it-to-a-six-year-old) says: [“If you can't explain it to a six year old, you don't understand it yourself.”](https://www.reddit.com/r/explainlikeimfive/) (Warning: Reddit link, do not click.)
-
-You may be thinking, it we're doing all the work, then what are *you* good for then, Mr. Lumagbas? Well, I'd like to think that I see further ahead than you, so I can see which pitfalls or misconceptions programmers form when first starting out. It's my job to point these out (using questions in class), so that we can avoid (or remedy) them.
-
-I'm happy to receive any feedback on this method, whether or not you think it's working. But let's give it a solid go first, yes?
 
 ### Reading quizzes
 
@@ -174,26 +163,6 @@ Pair programming does not mean:
 
 Lab submissions have to be made during lab time, except when otherwise noted, so show up to lab!
 
-### Homework
-
-Homeworks are bigger lab exercises (or maybe mini-projects), that ask you to integrate different topics discussed in class. These are to be performed outside of class time (as the name implies).
-
-Except for as noted (e.g. Homework 1) homeworks will be done in randomly-assigned pairs, a different pair each time. However, working in the pair is optional (although encouraged!). When the homework is released, we'll assign pairs during lecture time, and you can decide then to work together, or individually.
-
-
-## Expectations
-
-How to do well in this course:
-
-- **Set a target grade!** Do it this week, week 1. Would you like to ace the course? Just barely pass? Plug some numbers into our [grading scheme](#grading) to see how much work (or how little) you'll actually need to do to hit your target.
-- **Block off time weekly** (or daily!) to work on course requirements outside of class time. Budget at least 5-8 hours per week apart from the lectures and labs to work on readings, homeworks, and studying for exams.
-- **Programming is a skill**, like playing an instrument. You can't learn to play a guitar just by reading a book, same with programming. Run the examples from the readings and lectures on your own computer (or in the lab), modify them to see how the program behavior changes. Show up to all the labs, and work on the assignments!
-- **Start working on the homeworks early.** ([I know, this coming from a chronic procrastinator.](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator) Do what I say, not what I do.) To this day I underestimate how long a programming problem is going to take, and if I'm going to get stuck on anything (and I always get stuck on *something*).
-- **Ask for help.** If something's not clear in lecture, put your hand up. If you get stuck on something with the homeworks, send me an email. Meet me during office hours. It's my job to open opportunities for students to ask help, your job to take them.
-- **When short on time, submit partial work** for partial credit. The emphasis of this course is on the process of problem solving, with the correct solution being a side effect of the process followed well. To that end, do what you can, and show me what you did in the time allotted.
-- **Don't copy code!** Don't even look at someone else's code. [And especially don't turn in any code that's not your own.](#academic-honesty)
-- **Exams will be easy** if you do all of the above.
-
 ## Course policies
 
 ### Communication
@@ -210,7 +179,13 @@ If you'd like to see me at the office, please email me to set an appointment fir
 
 Submissions will be done through Blackboard. No email attachments please! I may give exceptions if there are problems with uploading attachments through Blackboard. In that case, [attach files to an email](#communication) and send it to me **before** the deadline.
 
-Late submissions will not be accepted. You are responsible for starting assignments early, and to account for any [curve ball Murphy throws at you](https://en.wikipedia.org/wiki/Murphy%27s_law), for example: lost files, computer failure, power outages. Plan for the worst.
+### Late submissions
+
+Late submissions will NOT be accepted. You are responsible for starting assignments early, and to account for any [curve ball Murphy throws at you](https://en.wikipedia.org/wiki/Murphy%27s_law), for example: lost files, computer failure, power outages. Plan for the worst.
+
+#### Deadline extensions
+
+However, I'm you'll find out that I'm very liberal at offering extensions, as long as you request for one early: the morning of the deadline at the latest.
 
 ### Academic honesty
 
