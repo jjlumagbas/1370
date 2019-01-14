@@ -1,0 +1,14 @@
+Pixel : Number
+
+px : Pixel
+
+Image : Pixel[40000]
+
+negative : px -> px * -1 -> result
+
+img : Image
+
+
+negative-img : img -> for each px in img -> negative -> result
+
+
