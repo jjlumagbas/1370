@@ -170,6 +170,13 @@ I'll send announcements through Blackboard, please check there every day.
 
 Email me using your UTRGV email, and start the subject line like this "CMPE/CSCI 1370 - 01"
 
+#### Email turnaround time
+
+- Expect at least a day for me to get back to your emails. 
+- Although I usually check email daily around noontime to early afternoon, so if you send me an email in the morning I *might* get back to you within the day. 
+- I'm usually offline at around 330pm, so any emails sent after that will very likely be seen the next day still.
+- **IMPT:** All of the above apply even if it's the day of some deadline. I suggest you get started on any assignments early so that there's time for me to respond to any questions before the deadline.
+
 ### Office hours
 
 If you'd like to see me at the office, please email me to set an appointment first. I'm also open to meeting outside of office hours if you set it up through email.
