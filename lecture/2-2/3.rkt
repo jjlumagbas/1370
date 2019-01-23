@@ -13,7 +13,7 @@
 (define roof-small (triangle 30 "solid" "red"))
 (define roof (beside/align "bottom" roof-big roof-small))
   
-(define main (rectangle 70 40 "solid" "black"))
+; (define main (rectangle 70 40 "solid" "black"))
 
 (define (house clr)
   (overlay/align "center" "bottom" door
@@ -21,3 +21,7 @@
                         (rectangle 70 40 "solid" clr))))
 
 (house "black")
+
+(house "red")
+
+(house "green")
