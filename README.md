@@ -106,6 +106,8 @@ MAC:
 
 ## Grading
 
+**IMPT**: In order to get a C or higher, you need at least a C average on the exams. Grades will be calculated like this: If raw average is 70% (equivalent to C) or higher, but exams average is lower than 70%, final grade will be D.
+
 |                                     | Percentage |
 |-------------------------------------|-----------:|
 | In-class participation (Attendance) |        10% |
