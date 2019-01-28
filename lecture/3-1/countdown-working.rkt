@@ -4,12 +4,18 @@
 (require 2htdp/image)
 (require 2htdp/universe)
 
-(define (show-countdown state)
-  (text (number->string state) 200 "blue"))
+(define (render state)
+  ;(text (number->string state) 150 "blue"))
+  (circle (* state 10) "solid" "blue"))
 
 (define (countdown state)
   (- state 1))
 
+; Number String -> Number
+(define (key-pressed state key)
+  10)
+
 (big-bang 10
-  [to-draw show-countdown]
-  [on-tick countdown])
+  [to-draw render]
+  [on-tick countdown 3]
+  [on-key key-pressed])
