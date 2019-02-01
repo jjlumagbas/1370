@@ -1,4 +1,4 @@
-# Exam 1 Preps
+# Exam 1 Study Guide
 
 ## What to take to the exam
 
