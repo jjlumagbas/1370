@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+// Fill in the question and answer parts
+// with the options provided below
 string ph(double p) {
   if () {
 
@@ -17,7 +19,21 @@ string ph(double p) {
 
 // return "acid";
 // return "neutral";
-// return "base";
+// return "";
+
+// Fill in the answer parts with the correct
+// formula (for else, just return the original temp)
+// Celsius to Fahrenheit: (C × 9/5) + 32 = F
+// Celsius to Kelvin: C + 273.15 = K
+double convert_c_to(char unit, double temp) {
+  if (unit == 'f') {
+
+  } else if (unit == 'k') {
+
+  } else {
+
+  }
+}
 
 int main() {
   cout << boolalpha;
