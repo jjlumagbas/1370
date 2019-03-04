@@ -35,6 +35,15 @@ double convert_c_to(char unit, double temp) {
   }
 }
 
+
+// Fill in the body for the function below:
+// Produce the complement of the given 
+// primary color ("red", "blue", "yellow")
+string complement(string color) {
+
+}
+
+
 int main() {
   cout << boolalpha;
 
