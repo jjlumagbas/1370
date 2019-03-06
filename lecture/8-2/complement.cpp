@@ -40,6 +40,8 @@ string complement(string color) {
     return "orange";
   } else if (color == "yellow") {
     return "violet";
+  } else {
+    return color;
   }
 }
 
@@ -49,7 +51,13 @@ int main() {
 
   cout << "Tests for complement:" << endl;
   cout << (complement("red") == "green") << endl;
+  cout << (complement("blue") == "orange") << endl;
+  cout << (complement("yellow") == "violet") << endl;
 
   
   return EXIT_SUCCESS;
 }
+
+
+
+
