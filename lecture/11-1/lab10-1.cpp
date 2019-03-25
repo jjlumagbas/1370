@@ -2,6 +2,9 @@
 
 using namespace std;
 
+// Student ID 1:
+// Student ID 2:
+
 // 0123456789
 void one() {
   for (int i = 0; i < 10; i++) {
@@ -37,7 +40,9 @@ void five() {
 
 // 0246810 
 void six() {
-
+  for (int i = 0; i <= 10;  i+=2) {
+    cout << i;
+  }
 }
 
 // 102030405060708090
@@ -47,7 +52,7 @@ void seven() {
 
 // 5 4 3 2 1 0 -1 -2 -3 -4 -5 
 void eight() {
-
+  cout << i << " ";
 }
 
 int main () {

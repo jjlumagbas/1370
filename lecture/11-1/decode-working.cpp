@@ -35,16 +35,20 @@ int main () {
   ifstream input_file;
   input_file.open("secret.txt");     
 
-  for (int i = 1; i < 26; i++) {
-    char c;
+  int i = 0;
+  while (i < 26) {
     cout << i << ": ";
+    char c;
     while (input_file.get(c)) { 
       cout << shift_letter(c, i);
     }         
-    cout << endl;    
+    cout << endl;
+ 
 
     input_file.clear();
     input_file.seekg(0, ios::beg);
+    
+    i++;
   }
 
   input_file.close();        
