@@ -7,10 +7,10 @@ using namespace std;
 
 
 /* For each of the below functions write:
-(IMPT: Do these steps in order)
+(IMPT! Do these steps in order)
 1. A stub
-2. At least 2 tests (different array inputs)
-3. Function body
+2. (In main) at least 2 tests (different array inputs)
+3. Full function definition
 */
 
 
