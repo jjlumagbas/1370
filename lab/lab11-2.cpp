@@ -15,17 +15,17 @@ using namespace std;
 
 
 // A.
-// is_equal: int[], int, int[], int
+// is_equal: int[], int, int[], int -> boolean
 // Accepts 2 integer arrays (and their lengths), and
 // returns true if the first array is equal to the second array
 // (they both have the same number of elements in order)
 
 
 // B.
-// is_subset: int[], int, int[], int
+// is_subset: int[], int, int[], int -> int
 // Accepts 2 integer arrays (and their lengths), and
-// returns true if every element in the first array
-// can be found in the second array
+// returns the number of elements in the first array
+// that can be found in the second array
 
 
 // C.

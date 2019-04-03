@@ -16,14 +16,26 @@ bool f(int a[], int a_length, int b[], int b_length) {
   }
 }
 
+bool contains(int arr[], int length, int n) {
+  for (int i = 0; i < length; i++) {
+    if (arr[i] == n) {
+      return true;
+    }
+  }
+  return false;
+}
+
 int g(int a[], int a_length, int b[], int b_length) {
   int result = 0;
   for (int i = 0; i < a_length; i++) {
-    for (int j = 0; j < b_length; j++) {
-      if (a[i] == b[j]) {
-        result++;
-      }
+    if (contains(b, b_length, a[i])) {
+      result++;
     }
+    // for (int j = 0; j < b_length; j++) {
+    //   if (a[i] == b[j]) {
+    //     result++;
+    //   }
+    // }
   }
   return result;
 }
