@@ -24,8 +24,8 @@ using namespace std;
 // B.
 // is_subset: int[], int, int[], int -> int
 // Accepts 2 integer arrays (and their lengths), and
-// returns the number of elements in the first array
-// that can be found in the second array
+// returns the number of times elements in the first array
+// appear in the second array
 
 
 // C.
