@@ -9,6 +9,8 @@ Classes are a way to represent compound data. That means data that's composed of
 
 ## Class definitions
 
+Note: follow along by keeping [course1.cpp](https://github.com/jjlumagbas/1370/blob/master/lecture/15-1/course1.cpp) open in another window.
+
 When you're defining a class, you're describing a new data type. So we can think of class definitions as being a blueprint for some data. In the next section (Creating instances), we discuss creating actual data from this blueprint.
 
 Here's a basic class definition for a college course:
@@ -40,7 +42,7 @@ So say the class is `Student`, then an instance of `Student` might be you, the a
 
 Here's how we create and initialize an instance of `Course` (this code might go in our function definitions, or in `main`):
 
-```
+```c++
 Course c1;
 c1.code = "CSCI";
 c1.number = "1370";
@@ -52,7 +54,7 @@ c1.hours = 3;
 2. To intialize each of the member variables, we use the dot `.` operator. The syntax is `<instance name>.<member name>`.
 3. The dot operator can also be used to retrieve the value of the member variable. For instance, we can first initialize `c1` and then say:
 
-```
+```c++
 cout << c1.code;  // Output: "CSCI"
 ```
 
@@ -61,7 +63,7 @@ cout << c1.code;  // Output: "CSCI"
 
 Just as any other type, we can specify our class as the type of an input to our functions, or as the return type from our function. Here's an example:
 
-```
+```c++
 string course_to_string(Course c) {
   return c.code + " " + c.number + " - " + c.title;
 }
@@ -69,7 +71,7 @@ string course_to_string(Course c) {
 
 This function simply concatenates member variables so we can use that string to print out the course like this:
 
-```
+```c++
 cout << course_to_string(c1); // Output: "CSCI 1370 - Engineering Computer Science I"
 ```
 
@@ -79,13 +81,13 @@ Notice again the use of the dot operator to access the member variables of that 
 
 We can also have arrays of instances. Say we've defined another course `c2`. We can then create an array of Courses like this, same as we do for arrays of built-in types:
 
-```
+```c++
 Course courses[2] = {c1, c2};
 ```
 
 Functions can then accept Course arrays and operate on them:
 
-```
+```c++
 int total_hours(Course courses[], int length) {
   int total = 0;
   for (int i = 0; i < length; i++) {
