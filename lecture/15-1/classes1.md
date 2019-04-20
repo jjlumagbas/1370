@@ -1,4 +1,4 @@
-# Classes Part 1
+# Classes (Part 1)
 
 Classes are a way to represent compound data. That means data that's composed of more than one piece. Lots of things in the real world can't be represented with just one piece of data, and this is where we'll need classes:
 
