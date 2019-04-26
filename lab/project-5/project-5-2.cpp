@@ -21,6 +21,11 @@ class Review {
   public:
     int rating;
     string text;
+
+  Review() {
+    rating = 0;
+    text = "";
+  }
 };
 // REPLACE THIS CLASS DEFINITION
 

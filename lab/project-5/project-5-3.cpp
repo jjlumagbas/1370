@@ -23,9 +23,9 @@ void display_file(string filename) {
   file.open(filename);
 
   while (file.good()) {
-    string line;
-    file >> line;
-    cout << line << endl;
+    string word;
+    file >> word;
+    cout << word << endl;
   }
 
   file.close();
