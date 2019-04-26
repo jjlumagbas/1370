@@ -42,8 +42,9 @@ class Patient {
 // Part 2.1
 // Take your class definition for Movie from lab14 and write:
 // - a constructor
-// - a member function longer(), which accepts 2 Movies and returns
-//     the Movie whose running time is longer than the other
+// - a member function longer(), which accepts another Movie
+//     and compares its running time to this Movie. The function
+//     then returns the running time of the longer movie
 
 
 // Part 2.2
